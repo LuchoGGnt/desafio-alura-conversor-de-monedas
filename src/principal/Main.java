@@ -29,7 +29,7 @@ public class Main {
                 ***************************************
                 """);
             System.out.print("Elija una opción válida: ");
-            int opcion = -1;
+            int opcion;
             try {
                 opcion = input.nextInt();
                 if (opcion < 1 || (opcion > 7 && opcion != 9)) {
@@ -72,7 +72,7 @@ public class Main {
                     System.out.print("\nDijite el código ISO de la divisa base: ");
                     monedaBase = input.next().trim().replace(" ", "").toUpperCase();
                     System.out.print("\nDijite el código ISO de la divisa objetivo: ");
-                    monedaObjetivo = input.next().trim().replace(" ", "").toUpperCase();;
+                    monedaObjetivo = input.next().trim().replace(" ", "").toUpperCase();
                     break;
             }
 

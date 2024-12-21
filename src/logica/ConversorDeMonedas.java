@@ -3,8 +3,6 @@ package logica;
 import modulos.Moneda;
 import modulos.ObtenerMoneda;
 
-import java.util.Scanner;
-
 public class ConversorDeMonedas {
     public double convertirMoneda(String monedaBase, String monedaObjetivo, double monto) {
         ObtenerMoneda obtenerMoneda = new ObtenerMoneda();

@@ -6,6 +6,7 @@ El sistema no permite la utilización de otras opciones inexistentes, lo que fav
 <h2>Demostración</h2>
 
 El contenido principal que se muestra al ejecutar la aplicación es el siguiente:
+
 ![image](https://github.com/user-attachments/assets/25c43cd0-5eba-4ac2-b9e9-c43f994f31aa)
 
 Las opciones del 1 al 6 permiten convertir monedas ya establecidas. En caso de la opción 7 permite convertir monedas específicas que el usuario desea, con la única condición de que el código ISO de las monedas estén bien escritas, ya que si no lo están, el programa mostrará una excepción.
